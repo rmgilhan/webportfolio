@@ -52,27 +52,27 @@
 				<input type="email" name="email" id="email" required><br>
 
 				<label for="contact">Contact Number</label><br>
-				<input type="tel" name="contact" id="contact"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678" srequired><br>
+				<input type="tel" name="contact" id="contact"  pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required><br>
 
 				<label for="service_type">Service Type:</label><br>
 				<select name="service_type" id="service_type">
-					<option value="Front End Programming">Front End Programming</option>
-					<option value="Back End Programming">Back End Programming</option>
-					<option value="Full Stack Programming">Full Stack Programming</option>
+					<option value="frontend-programming">Front End Programming</option>
+					<option value="backend-programming">Back End Programming</option>
+					<option value="fullstack-programming">Full Stack Programming</option>
 				</select><br>
 
 				<label>Preferred Contact:</label><br>
-				<input type="checkbox" name="email" id="email">
-				<label for="email">Email</label><br>
-				<input type="checkbox" name="phone" id="phone">
-				<label for="phone">Phone Package:</label><br>
+				<input type="checkbox" name="contact1" id="contact1" value="email">
+				<label for="contact1">Email</label><br>
+				<input type="checkbox" name="contact2" id="contact2">
+				<label for="contact2" value="phone">Phone</label><br>
 
 				<label>Package:</label><br>
-				<input type="radio" name="basic" id="basic">
-				<label for="basic">Basic</label><br>
+				<input type="radio" name="package1" id="package1" value="basic">
+				<label for="package1">Basic</label><br>
 
-				<input type="radio" name="premium" id="premium">
-				<label for="premium">Premium</label><br><br>
+				<input type="radio" name="package2" id="package2" value="premium">
+				<label for="package2">Premium</label><br><br>
 
 				<label for="message">Message</label><br>
 				<textarea name="message" id="message" rows="5"></textarea><br>
