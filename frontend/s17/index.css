@@ -41,14 +41,14 @@ h1,h3{
 	height: 100px;
 }
 
-nav{
+.pg-color, nav{
 	background-color: rgba(138,89,214,0.9);
 	color: #FFF;
 }
 iframe{
 	display: inline-block;
 	width: 40vw;
-	height: 70vh;
+	height: 60vh;
 	border-radius: 25px;
 	border:0;
 }
