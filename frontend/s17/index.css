@@ -41,7 +41,7 @@ h1,h3{
 	height: 100px;
 }
 
-.pg-color, nav{
+nav{
 	background-color: rgba(138,89,214,0.9);
 	color: #FFF;
 }
