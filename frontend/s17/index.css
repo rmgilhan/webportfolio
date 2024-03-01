@@ -12,6 +12,9 @@
 main{
 	background-color: rgba(89,214,138,0.6);
 }
+section{
+	border-radius: 15px;
+}
 p{
 	font-size: 1.1rem;
 }
@@ -45,7 +48,7 @@ nav{
 iframe{
 	display: inline-block;
 	width: 40vw;
-	height: 50vh;
+	height: 70vh;
 	border-radius: 25px;
 	border:0;
 }
