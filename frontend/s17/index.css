@@ -1,6 +1,6 @@
 /* CSS Reset */
 * {
-	Font-family: 'Roboto','Open Sans','PT Sans' sans-serif;
+	Font-family: 'Open Sans','PT Sans', sans-serif;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -30,6 +30,9 @@ h1,h3{
 	background-color: rgba(214,138,89,0.9);
 	padding-top: 2rem;
 }
+#projects > p{
+	font-family: 'Roboto', sans-serif;
+}
 #tools img{
 	width: 100px;
 	height: 100px;
@@ -40,8 +43,9 @@ nav{
 	color: #FFF;
 }
 iframe{
-	width: 500px;
-	height: 450px;
+	display: inline-block;
+	width: 40vw;
+	height: 50vh;
 	border-radius: 25px;
 	border:0;
 }
