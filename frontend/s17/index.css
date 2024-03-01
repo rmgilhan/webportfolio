@@ -9,6 +9,9 @@
 	width: 300px;
 	height: 300px;
 }
+main{
+	background-color: rgba(89,214,138,0.6);
+}
 p{
 	font-size: 1.1rem;
 }
@@ -19,16 +22,21 @@ h1,h3{
 	width: 30px;
 	height: 30px;
 }
-#projects img{
+/*#projects img{
 	width: 250px;
 	height: 250px;
+}*/
+#tools,#projects, #contact, #home, #landing{
+	background-color: rgba(214,138,89,0.9);
+	padding-top: 2rem;
 }
 #tools img{
 	width: 100px;
 	height: 100px;
 }
+
 nav{
-	background-color: darkgray;
+	background-color: rgba(138,89,214,0.9);
 	color: #FFF;
 }
 iframe{
@@ -36,4 +44,7 @@ iframe{
 	height: 450px;
 	border-radius: 25px;
 	border:0;
+}
+a:active{
+	font-weight: 500;
 }
